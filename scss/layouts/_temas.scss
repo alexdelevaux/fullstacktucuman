@@ -1,0 +1,21 @@
+
+  .wrapper {
+    overflow-x: hidden;
+}
+
+
+.card-img-top {
+  margin: 10px auto;
+  max-width: 128px;
+  border-radius: 50%;
+}
+
+.card-title {
+  font-size: 1.5em;
+}
+
+.card-footer {
+  a:hover {
+    font-size: 1.1em;
+  }
+}

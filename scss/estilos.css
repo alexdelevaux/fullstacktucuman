@@ -1,0 +1,82 @@
+.navbar {
+  background-color: #114992;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: #58a4eb;
+}
+
+.navbar-toggler {
+  background-color: #1454a9;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #58a4eb;
+}
+
+.dropdown-menu {
+  background-color: #0d376d;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #3490e7;
+}
+
+.jumbotron {
+  background-image: url("../img/header.jpeg");
+}
+
+.jumbotron .container {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.jumbotron .container h1 {
+  color: #114992;
+  font-weight: 700;
+}
+
+#tucuman {
+  color: #58a4eb;
+  font-weight: 500;
+}
+
+.anio {
+  color: #58a4eb;
+  font-weight: 800;
+}
+
+.footer {
+  background-color: #114992;
+  color: white;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+.card-img-top {
+  margin: 10px auto;
+  max-width: 128px;
+  border-radius: 50%;
+}
+
+.card-title {
+  font-size: 1.5em;
+}
+
+.card-footer a:hover {
+  font-size: 1.1em;
+}
+/*# sourceMappingURL=estilos.css.map */

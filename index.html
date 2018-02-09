@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/estilos.css">
+
+    <title>FullStackTuc 2018</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--Barra de navegación-->
+
+      <nav class="navbar navbar-expand-lg text-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">FST2018</a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Evento
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#temas">Temas</a>
+                <a class="dropdown-item" href="#">Agenda</a>
+                <a class="dropdown-item" href="#">Lugar</a>
+                <a class="dropdown-item" href="#">Contacto</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link night" href="#home">Night Mode OFF</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar en el sitio" aria-label="Search">
+            <button class="btn botonbusq btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+          
+        </div>
+      </nav>
+
+    <!--HEADER-->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center font-weight-bold text-white pt-5">
+        <h1 class="display-1">FULL STACK <span id="tucuman">TUCUMÁN</span> <span class="anio">2018</span></h1>
+        <h2 class="display-4">El evento más grande del NOA de desarrollo web</h2>
+      </div>
+    </div>
+
+    <!--/HEADER-->
+
+    <!--SECCIONES-->
+
+    <!--Temas -->
+
+    <h2 class="display-4 text-center mb-2" id="temas">Temas</h2>
+    <p class="lead text-center my-4">¿De qué vamos a hablar? Seleccioná lo que más te gusta haciendo click en "Me interesa!"</p>
+
+    <div class="card-deck">
+      <div class="card border-primary">
+        <img class="card-img-top" src="img/react.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Novedades React</h5>
+          <p class="card-text">React llegó con su versión 16.2.0 con muchísimas novedades. No te pierdas todo lo referido al framework de Facebook!</p> 
+        </div>
+        <div class="card-footer text-center">
+            <small class="text-muted"><a href="#" class="text-primary">¡Me interesa!</a></small>
+        </div>
+      </div>
+      <div class="card border-danger">
+        <img class="card-img-top" src="img/angular.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Angular 5</h5>
+          <p class="card-text">La nueva versión de la librería de Google quiere seguir reinando en el mundo de JS. Las mejores novedades y charlas sobre Angular 5 estarán aquí.</p>
+        </div>
+        <div class="card-footer text-center">
+            <small class="text-muted"><a href="#" class="text-danger">¡Me interesa!</a></small>
+        </div>
+      </div>
+      <div class="card border-success">
+        <img class="card-img-top" src="img/vue.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Vue review</h5>
+          <p class="card-text">¿Hay rival para los poderosos React y Angular? Hasta no hace mucho diríamos que no. Hoy aparece el fuerte competidor, Vue. ¡Tenemos invitado sorpresa!</p>
+        </div>
+        <div class="card-footer text-center">
+            <small class="text-muted"><a href="#" class="text-success">¡Me interesa!</a></small>
+        </div>
+      </div>
+      <div class="card border-danger">
+          <img class="card-img-top" src="img/laravel.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center">Laravel FTW!</h5>
+            <p class="card-text">El enorme framework para PHP llegó para quedarse, desplazar a sus competidores y volver a poner al lenguaje en la competencia.</p>
+          </div>
+          <div class="card-footer text-center">
+              <small class="text-muted"><a href="#" class="text-danger">¡Me interesa!</a></small>
+          </div>
+        </div>
+      <div class="card border-success">
+        <img class="card-img-top" src="img/node.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Esto Node es todo</h5>
+          <p class="card-text">El entorno de ejecución JS más famoso del mundo no podía no tener lugar en nuestra conferencia. Hablaremos de la nueva versión 9 y mucho más.</p>
+        </div>
+        <div class="card-footer text-center">
+            <small class="text-muted"><a href="#" class="text-success">¡Me interesa!</a></small>
+        </div>
+      </div>
+    </div>
+
+
+    <!--/Temas-->
+
+
+
+
+    <!--/SECCIONES-->
+
+     <!-- Footer -->
+     <div class="container-fluid footer">
+      <div class="row text-white text-center mt-4 ">
+        <div class="col-md-6">
+          <div class="container py-md-4">
+            <h5 class="mb-4">Redes Sociales</h5>
+            <a href="http://www.facebook.com" class="text-white">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="" class="text-white"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="" class="text-white">
+                <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="" class="text-white">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 py-md-4 pt-sm-3">
+          <small class="align-middle copyright">&copy; 2017 Bear&amp;Lion SRL </small>
+        </div>
+      </div>
+    </div>
+    <!-- /Footer -->
+
+
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

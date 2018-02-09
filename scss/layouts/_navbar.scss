@@ -1,0 +1,37 @@
+.navbar {
+    background-color: $color-principal;
+
+    &-brand {
+        color: white;
+
+        &:hover {
+            color: $color-secundario;
+        }
+    }
+
+    &-toggler {
+        background-color: lighten($color-principal,5%);
+
+        &-icon {
+            color: white;
+        }
+    }
+}
+
+.nav {
+    &-link {
+        color: white;
+        &:hover {
+            color: $color-secundario;
+        }
+    
+    }
+}
+
+.dropdown-menu {
+    background-color: darken($color-principal,8%);
+
+    .dropdown-item {
+        color: darken($color-secundario,8%);
+    }
+}
