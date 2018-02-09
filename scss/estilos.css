@@ -66,6 +66,10 @@
   overflow-x: hidden;
 }
 
+h2 {
+  font-weight: 600;
+}
+
 .card-img-top {
   margin: 10px auto;
   max-width: 128px;
@@ -78,5 +82,6 @@
 
 .card-footer a:hover {
   font-size: 1.1em;
+  font-weight: 600;
 }
 /*# sourceMappingURL=estilos.css.map */
