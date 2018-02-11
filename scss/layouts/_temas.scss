@@ -24,3 +24,14 @@ h2 {
     font-weight: 600;
   }
 }
+
+.badge {
+  background-color: darken($color-principal,7%);
+  color: $color-secundario;
+  font-size: 1.1em;
+  margin: auto 1em;
+}
+
+.titulo-charla {
+  font-size: 1.8em;
+}

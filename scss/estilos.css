@@ -12,7 +12,7 @@
 }
 
 .navbar-brand:hover {
-  color: #58a4eb;
+  color: #3893e9;
 }
 
 .navbar-toggler {
@@ -28,7 +28,7 @@
 }
 
 .nav-link:hover {
-  color: #58a4eb;
+  color: #3893e9;
 }
 
 .dropdown-menu {
@@ -36,7 +36,7 @@
 }
 
 .dropdown-menu .dropdown-item {
-  color: #3490e7;
+  color: #197fdf;
 }
 
 .jumbotron {
@@ -53,12 +53,12 @@
 }
 
 #tucuman {
-  color: #58a4eb;
+  color: #3893e9;
   font-weight: 500;
 }
 
 .anio {
-  color: #58a4eb;
+  color: #3893e9;
   font-weight: 800;
 }
 
@@ -88,5 +88,16 @@ h2 {
 .card-footer a:hover {
   font-size: 1.1em;
   font-weight: 600;
+}
+
+.badge {
+  background-color: #0d3972;
+  color: #3893e9;
+  font-size: 1.1em;
+  margin: auto 1em;
+}
+
+.titulo-charla {
+  font-size: 1.8em;
 }
 /*# sourceMappingURL=estilos.css.map */
