@@ -7,7 +7,8 @@ const card = $(".card");
 const cardfooter = $(".card-footer");
 const cardtitulo = $(".card-title");
 const parrafos = $("p");
-const titulos = $("h2");
+const titulos = $(".titulos");
+const subtitulos = $(".subtitulos");
 
 var bandera = 0;
 
@@ -29,16 +30,17 @@ noche.on("click",function() {
         changeDayNight(card,"background-color","rgb(89, 90, 91)");
         changeDayNight(cardfooter,"background-color","rgb(47, 48, 48)");
         changeDayNight(cardtitulo,"color","rgb(196, 196, 196)");
-        changeDayNight(parrafos,"color","white");
+        changeDayNight(parrafos,"color","rgb(228, 228, 228)");
         botonbusq.removeClass("btn-outline-light").addClass("btn-outline-primary");
         changeDayNight(titulos,"color","rgb(88, 164, 235)");
+        changeDayNight(subtitulos,"color","rgb(228, 228, 228)");
     }
     else {
         noche.text('Night Mode OFF');
         changeDayNight(noche,"color","white");
         changeDayNight(barranav,"background-color","rgb(17, 73, 146)");
-        changeDayNight(cuerpo,"background-color","white");
-        changeDayNight(barrabusq,"background-color","white");
+        changeDayNight(cuerpo,"background-color","rgb(228, 228, 228)");
+        changeDayNight(barrabusq,"background-color","rgb(228, 228, 228)");
         changeDayNight(barrabusq,"color","initial");
         changeDayNight(card,"background-color","initial");
         changeDayNight(cardfooter,"background-color","initial");
@@ -46,6 +48,7 @@ noche.on("click",function() {
         changeDayNight(parrafos,"color","initial");
         botonbusq.removeClass("btn-outline-primary").addClass("btn-outline-light");
         changeDayNight(titulos,"color","initial");
+        changeDayNight(subtitulos,"color","rgb(24, 24, 24)");
     }
     
     

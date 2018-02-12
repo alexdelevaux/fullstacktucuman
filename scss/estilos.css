@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #e4e4e4;
+  color: #181818;
+}
+
 .navbar {
   background-color: #114992;
 }
@@ -52,6 +57,12 @@
   font-weight: 700;
 }
 
+.jumbotron .container h2 {
+  color: #3893e9;
+  font-weight: 400;
+  font-size: 2.8em;
+}
+
 #tucuman {
   color: #3893e9;
   font-weight: 500;
@@ -75,6 +86,11 @@ h2 {
   font-weight: 600;
 }
 
+.card {
+  background-color: #e4e4e4;
+  color: #181818;
+}
+
 .card-img-top {
   margin: 10px auto;
   max-width: 128px;
@@ -91,13 +107,23 @@ h2 {
 }
 
 .badge {
-  background-color: #0d3972;
-  color: #3893e9;
+  background-color: #09274d;
+  color: #66acee;
   font-size: 1.1em;
   margin: auto 1em;
 }
 
 .titulo-charla {
   font-size: 1.8em;
+}
+
+.list-group {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.list-group-item {
+  background-color: ligthten(#e4e4e4, 5%);
+  color: #181818;
 }
 /*# sourceMappingURL=estilos.css.map */

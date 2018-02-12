@@ -36,6 +36,9 @@
               </div>
             </li>
             <li class="nav-item active">
+                <a class="nav-link" href="#home" data-toggle="modal" data-target=".bd-example-modal-sm">Registrarme</a>
+              </li>
+            <li class="nav-item active">
               <a class="nav-link night" href="#home">Night Mode OFF</a>
             </li>
           </ul>
@@ -49,9 +52,18 @@
 
     <!--HEADER-->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container text-center font-weight-bold text-white pt-5">
+      <div class="container text-center font-weight-bold py-5">
         <h1 class="display-1">FULL STACK <span id="tucuman">TUCUMÁN</span> <span class="anio">2018</span></h1>
-        <h2 class="display-4">El evento más grande del NOA de desarrollo web</h2>
+        <h2 class="display-4 mb-5">El evento más grande del NOA de desarrollo web</h2>
+        <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">¡REGISTRATE!</button>
+
+        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              ...
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -63,7 +75,7 @@
 
     <!--Temas -->
 
-    <h2 class="display-3 text-center mb-2" id="temas">Temas</h2>
+    <h2 class="titulos display-3 text-center mb-2" id="temas">Temas</h2>
     <p class="lead text-center my-4">¿De qué vamos a hablar? Seleccioná lo que más te gusta haciendo click en "Me interesa!"</p>
 
     <div class="card-deck">
@@ -124,24 +136,50 @@
 
     <!--Agenda-->
 
-    <h2 class="display-3 text-center mb-2 mt-4" id="agenda">Agenda</h2>
+    <h2 class="display-3 titulos text-center mb-2 mt-4" id="agenda">Agenda</h2>
 
     <p class="lead text-center my-4">¿Qué eventos, en qué lugar y a qué hora? Aquí toda la agenda del FST2018</p>
 
-    <h3 class="display-4 text-center mb-3">Viernes 19</h3>
-
+    
+    
+      <h3 class="display-4 text-center mb-3 subtitulos">Viernes 19<span class="comprimir"></span></h3>
+    
     <ul class="list-group">
       <li class="list-group-item">
         <div class="d-flex justify-content-between">
-          <h5 class="titulo-charla mb-1">Charla de Bienvenida</h5>
+          <h4 class="titulo-charla mb-1">Charla de Bienvenida</h5>
           <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">9:00</span>
         </div>
-        <p class="mb-1">Organizadores del evento</p>
+        <h5 class="mb-1">Organizadores del evento</p>
         <small class="text-muted mb-1">Salón Principal</small>
       </li>
+      <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h4 class="titulo-charla mb-1">React 16 - Novedades</h5>
+            <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">10:00</span>
+          </div>
+          <h5 class="mb-1">Miguel Liezum</p>
+          <small class="text-muted mb-1">Salón Principal</small>
+        </li>
+      <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h4 class="titulo-charla mb-1">Angular 5 - Novedades</h5>
+            <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">10:00</span>
+          </div>
+          <h5 class="mb-1">Alejandro Cisneros Delevaux</p>
+          <small class="text-muted mb-1">Sala 2</small>
+        </li>
+      <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h4 class="titulo-charla mb-1">Charla de Bienvenida</h5>
+            <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">9:00</span>
+          </div>
+          <h5 class="mb-1">Organizadores del evento</p>
+          <small class="text-muted mb-1">Salón Principal</small>
+        </li>
     </ul>
 
-
+  
     <!--/Agenda-->
 
 

@@ -7,6 +7,10 @@ h2 {
   font-weight: 600;
 }
 
+.card {
+  background-color: $color-fondo;
+  color: $color-texto;
+}
 
 .card-img-top {
   margin: 10px auto;
@@ -26,12 +30,22 @@ h2 {
 }
 
 .badge {
-  background-color: darken($color-principal,7%);
-  color: $color-secundario;
+  background-color: darken($color-principal,15%);
+  color: lighten($color-secundario,10%);
   font-size: 1.1em;
   margin: auto 1em;
 }
 
 .titulo-charla {
   font-size: 1.8em;
+}
+
+.list-group {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.list-group-item {
+  background-color: ligthten($color-fondo,5%);
+  color: $color-texto;
 }
