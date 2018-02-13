@@ -11,14 +11,17 @@ const titulos = $(".titulos");
 const subtitulos = $(".subtitulos");
 const modalFondo = $(".modal-content");
 const modalInput = $("input");
-
+const reacttalk = $(".reacttalk");
 
 var bandera = 0;
-
 
 function changeDayNight(elemento,propiedad,valor) {
     elemento.css(propiedad,valor);
 }
+
+$(".react").on("click", function () {
+    reacttalk.addClass("bg-primary").addClass("text-white");
+});
 
 noche.on("click",function() {
     bandera++;

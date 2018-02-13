@@ -70,58 +70,61 @@
     <h2 class="titulos display-3 text-center mb-2" id="temas">Temas</h2>
     <p class="lead text-center my-4">¿De qué vamos a hablar? Seleccioná lo que más te gusta haciendo click en "Me interesa!"</p>
 
-    <div class="card-deck">
-      <div class="card border-primary">
+    <div class="row">
+      
+      <div class="card col-md-6 col-lg-4 my-2">
         <img class="card-img-top" src="img/react.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title text-center">Novedades React</h5>
           <p class="card-text">React llegó con su versión 16.2.0 con muchísimas novedades. No te pierdas todo lo referido al framework de Facebook!</p> 
         </div>
         <div class="card-footer text-center">
-            <small class="text-muted"><a href="#" class="text-primary">¡Me interesa!</a></small>
+            <small class="text-muted"><a href="#agenda" class="text-primary react">¡Me interesa!</a></small>
         </div>
       </div>
-      <div class="card border-danger">
+      <div class="card col-md-6 col-lg-4 my-2">
         <img class="card-img-top" src="img/angular.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title text-center">Angular 5</h5>
           <p class="card-text">La nueva versión de la librería de Google quiere seguir reinando en el mundo de JS. Las mejores novedades y charlas sobre Angular 5 estarán aquí.</p>
         </div>
         <div class="card-footer text-center">
-            <small class="text-muted"><a href="#" class="text-danger">¡Me interesa!</a></small>
+            <small class="text-muted"><a href="#agenda" class="text-danger">¡Me interesa!</a></small>
         </div>
       </div>
-      <div class="card border-success">
+      <div class="card col-md-6 col-lg-4 my-2">
         <img class="card-img-top" src="img/vue.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title text-center">Vue review</h5>
           <p class="card-text">¿Hay rival para los poderosos React y Angular? Hasta no hace mucho diríamos que no. Hoy aparece el fuerte competidor, Vue. ¡Tenemos invitado sorpresa!</p>
         </div>
         <div class="card-footer text-center">
-            <small class="text-muted"><a href="#" class="text-success">¡Me interesa!</a></small>
+            <small class="text-muted"><a href="#agenda" class="text-success">¡Me interesa!</a></small>
         </div>
       </div>
-      <div class="card border-danger">
+      <div class="card col-md-6 col-lg-4 my-2">
           <img class="card-img-top" src="img/laravel.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title text-center">Laravel FTW!</h5>
             <p class="card-text">El enorme framework para PHP llegó para quedarse, desplazar a sus competidores y volver a poner al lenguaje en la competencia.</p>
           </div>
           <div class="card-footer text-center">
-              <small class="text-muted"><a href="#" class="text-danger">¡Me interesa!</a></small>
+              <small class="text-muted"><a href="#agenda" class="text-danger">¡Me interesa!</a></small>
           </div>
         </div>
-      <div class="card border-success">
+      <div class="card col-md-6 col-lg-4 my-2">
         <img class="card-img-top" src="img/node.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title text-center">Esto Node es todo</h5>
           <p class="card-text">El entorno de ejecución JS más famoso del mundo no podía no tener lugar en nuestra conferencia. Hablaremos de la nueva versión 9 y mucho más.</p>
         </div>
         <div class="card-footer text-center">
-            <small class="text-muted"><a href="#" class="text-success">¡Me interesa!</a></small>
+            <small class="text-muted"><a href="#agenda" class="text-success">¡Me interesa!</a></small>
         </div>
       </div>
     </div>
+
+    
 
 
     <!--/Temas-->
@@ -145,7 +148,7 @@
         <h5 class="mb-1">Organizadores del evento</p>
         <small class="text-muted mb-1">Salón Principal</small>
       </li>
-      <li class="list-group-item">
+      <li class="list-group-item reacttalk">
           <div class="d-flex justify-content-between">
             <h4 class="titulo-charla mb-1">React 16 - Novedades</h5>
             <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">10:00</span>
@@ -200,7 +203,23 @@
 									<option value="disenador">Diseñador</option>
 									<option value="fullstack">Full Stack Developer</option>
                 </select>
-              </div>
+            </div>
+
+
+            <h5 class="mb-3">Días que asistiré</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="viernes">
+              <label class="form-check-label" for="viernes">
+                Viernes
+              </label>
+            </div>
+            <div class="form-check mb-4">
+              <input class="form-check-input" type="checkbox" value="" id="sabado">
+              <label class="form-check-label" for="sabado">
+                Sábado
+              </label>
+            </div>
+            
             
             <button type="submit" class="btn btn-primary">Registrarme</button>
           </form>

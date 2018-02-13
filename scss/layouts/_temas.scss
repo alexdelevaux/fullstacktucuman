@@ -8,12 +8,18 @@ h2 {
 }
 
 .card {
-  background-color: $color-fondo;
+  background-color: lighten($color-fondo,2%);
   color: $color-texto;
 }
 
+.row {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
 .card-img-top {
-  margin: 10px auto;
+  padding-top: 1em;
+  margin: 0 auto;
   max-width: 128px;
   border-radius: 50%;
 }
