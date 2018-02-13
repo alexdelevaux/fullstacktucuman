@@ -56,14 +56,6 @@
         <h1 class="display-1">FULL STACK <span id="tucuman">TUCUMÁN</span> <span class="anio">2018</span></h1>
         <h2 class="display-4 mb-5">El evento más grande del NOA de desarrollo web</h2>
         <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">¡REGISTRATE!</button>
-
-        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-              ...
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -184,6 +176,39 @@
 
 
     <!--/SECCIONES-->
+
+    <!--MODAL-->
+    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <form class="py-3 px-4">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Mark Zuckerberg">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="ejemplo@gmail.com">
+              <small id="emailHelp" class="form-text text-muted">No compartiremos esta info con nadie!</small>
+            </div>
+            <div class="form-group">
+                <label for="trabajo">Profesión:</label>
+                <select class="custom-select form-control" id="trabajo">
+									<option value="estudiante">Estudiante</option>
+									<option value="front-end">Desarrollador Front-End</option>
+									<option value="back-end">Desarrollador Back-End</option>
+									<option value="disenador">Diseñador</option>
+									<option value="fullstack">Full Stack Developer</option>
+                </select>
+              </div>
+            
+            <button type="submit" class="btn btn-primary">Registrarme</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--/MODAL-->
 
      <!-- Footer -->
      <div class="container-fluid footer">

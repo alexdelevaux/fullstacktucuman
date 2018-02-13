@@ -126,4 +126,9 @@ h2 {
   background-color: ligthten(#e4e4e4, 5%);
   color: #181818;
 }
+
+.modal-content {
+  background-color: #e4e4e4;
+  color: #181818;
+}
 /*# sourceMappingURL=estilos.css.map */
