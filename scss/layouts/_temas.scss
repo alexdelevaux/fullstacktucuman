@@ -28,12 +28,7 @@ h2 {
   font-size: 1.5em;
 }
 
-.card-footer {
-  a:hover {
-    font-size: 1.1em;
-    font-weight: 600;
-  }
-}
+
 
 .badge {
   background-color: darken($color-principal,15%);
@@ -54,4 +49,22 @@ h2 {
 .list-group-item {
   background-color: ligthten($color-fondo,5%);
   color: $color-texto;
+}
+
+.color {
+  &-react {
+    color: $color-react;
+  }
+  &-angular {
+    color: $color-angular;
+  }
+  &-laravel {
+    color: $color-laravel;
+  }
+  &-node {
+    color: $color-node;
+  }
+  &-vue {
+    color: $color-vue;
+  }
 }

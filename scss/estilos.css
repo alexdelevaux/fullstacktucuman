@@ -1,3 +1,37 @@
+.card-react {
+  transition: background .5s 1s ease-out;
+}
+
+.card-react:hover {
+  background: #114992;
+  color: white;
+}
+
+.card-img-top {
+  transition: transform 0.5s 0.1s cubic-bezier(0.16, 0, 0.72, 1);
+}
+
+.card-img-top:hover {
+  transform: rotate(-15deg) scale(1.1);
+}
+
+.card-footer a {
+  transition: font-size .2s ease-in;
+}
+
+.card-footer a:hover {
+  font-size: 1.05em;
+}
+
+.titulos {
+  transition: color .5s .1s ease-out;
+}
+
+.titulos:hover {
+  color: #114992;
+  cursor: pointer;
+}
+
 .wrapper {
   max-width: 90%;
   margin: 0 auto;
@@ -6,6 +40,24 @@
 body {
   background-color: #e4e4e4;
   color: #181818;
+  font-family: "Muli", sans-serif;
+}
+
+.titulos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.2em;
+  text-transform: uppercase;
+}
+
+.titulos-charlas {
+  font-size: 2.1em;
+  font-variant: small-caps;
+}
+
+.subtitulos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.1em;
+  font-variant: small-caps;
 }
 
 .navbar {
@@ -17,7 +69,7 @@ body {
 }
 
 .navbar-brand:hover {
-  color: #3893e9;
+  color: #4687c4;
 }
 
 .navbar-toggler {
@@ -33,7 +85,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #3893e9;
+  color: #4687c4;
 }
 
 .dropdown-menu {
@@ -41,7 +93,7 @@ body {
 }
 
 .dropdown-menu .dropdown-item {
-  color: #197fdf;
+  color: #3672ab;
 }
 
 .jumbotron {
@@ -58,18 +110,18 @@ body {
 }
 
 .jumbotron .container h2 {
-  color: #3893e9;
+  color: #4687c4;
   font-weight: 400;
   font-size: 2.8em;
 }
 
 #tucuman {
-  color: #3893e9;
+  color: #4687c4;
   font-weight: 500;
 }
 
 .anio {
-  color: #3893e9;
+  color: #4687c4;
   font-weight: 800;
 }
 
@@ -107,14 +159,9 @@ h2 {
   font-size: 1.5em;
 }
 
-.card-footer a:hover {
-  font-size: 1.1em;
-  font-weight: 600;
-}
-
 .badge {
   background-color: #09274d;
-  color: #66acee;
+  color: #6da0d0;
   font-size: 1.1em;
   margin: auto 1em;
 }
@@ -131,6 +178,26 @@ h2 {
 .list-group-item {
   background-color: ligthten(#e4e4e4, 5%);
   color: #181818;
+}
+
+.color-react {
+  color: #1688f3;
+}
+
+.color-angular {
+  color: #dd0031;
+}
+
+.color-laravel {
+  color: #f35045;
+}
+
+.color-node {
+  color: #94c229;
+}
+
+.color-vue {
+  color: #41b782;
 }
 
 .modal-content {

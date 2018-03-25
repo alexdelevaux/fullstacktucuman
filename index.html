@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Muli" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/estilos.css">
 
@@ -74,7 +76,7 @@
       
       <div class="card col-md-6 col-lg-4 my-2">
         <img class="card-img-top" src="img/react.png" alt="Card image cap">
-        <div class="card-body">
+        <div class="card-body react-card">
           <h5 class="card-title text-center">Novedades React</h5>
           <p class="card-text">React llegó con su versión 16.2.0 con muchísimas novedades. No te pierdas todo lo referido al framework de Facebook!</p> 
         </div>
@@ -89,7 +91,7 @@
           <p class="card-text">La nueva versión de la librería de Google quiere seguir reinando en el mundo de JS. Las mejores novedades y charlas sobre Angular 5 estarán aquí.</p>
         </div>
         <div class="card-footer text-center">
-            <small class="text-muted"><a href="#agenda" class="text-danger">¡Me interesa!</a></small>
+            <small class="text-muted"><a href="#agenda" class="text-danger angular">¡Me interesa!</a></small>
         </div>
       </div>
       <div class="card col-md-6 col-lg-4 my-2">
@@ -99,7 +101,7 @@
           <p class="card-text">¿Hay rival para los poderosos React y Angular? Hasta no hace mucho diríamos que no. Hoy aparece el fuerte competidor, Vue. ¡Tenemos invitado sorpresa!</p>
         </div>
         <div class="card-footer text-center">
-            <small class="text-muted"><a href="#agenda" class="text-success">¡Me interesa!</a></small>
+            <small class="text-muted"><a href="#agenda" class="text-success vue">¡Me interesa!</a></small>
         </div>
       </div>
       <div class="card col-md-6 col-lg-4 my-2">
@@ -109,7 +111,7 @@
             <p class="card-text">El enorme framework para PHP llegó para quedarse, desplazar a sus competidores y volver a poner al lenguaje en la competencia.</p>
           </div>
           <div class="card-footer text-center">
-              <small class="text-muted"><a href="#agenda" class="text-danger">¡Me interesa!</a></small>
+              <small class="text-muted"><a href="#agenda" class="text-danger laravel">¡Me interesa!</a></small>
           </div>
         </div>
       <div class="card col-md-6 col-lg-4 my-2">
@@ -119,9 +121,10 @@
           <p class="card-text">El entorno de ejecución JS más famoso del mundo no podía no tener lugar en nuestra conferencia. Hablaremos de la nueva versión 9 y mucho más.</p>
         </div>
         <div class="card-footer text-center">
-            <small class="text-muted"><a href="#agenda" class="text-success">¡Me interesa!</a></small>
+            <small class="text-muted"><a href="#agenda" class="text-success node">¡Me interesa!</a></small>
         </div>
       </div>
+
     </div>
 
     
@@ -140,38 +143,61 @@
       <h3 class="display-4 text-center mb-3 subtitulos">Viernes 19<span class="comprimir"></span></h3>
     
     <ul class="list-group">
+
       <li class="list-group-item">
         <div class="d-flex justify-content-between">
-          <h4 class="titulo-charla mb-1">Charla de Bienvenida</h5>
+          <h4 class="titulos-charlas mb-1">Charla de Bienvenida</h5>
           <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">9:00</span>
         </div>
         <h5 class="mb-1">Organizadores del evento</p>
         <small class="text-muted mb-1">Salón Principal</small>
       </li>
+
       <li class="list-group-item reacttalk">
           <div class="d-flex justify-content-between">
-            <h4 class="titulo-charla mb-1">React 16 - Novedades</h5>
+            <h4 class="titulos-charlas mb-1">React 16 - Novedades</h5>
             <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">10:00</span>
           </div>
           <h5 class="mb-1">Miguel Liezum</p>
           <small class="text-muted mb-1">Salón Principal</small>
-        </li>
-      <li class="list-group-item">
+      </li>
+
+      <li class="list-group-item angulartalk">
           <div class="d-flex justify-content-between">
-            <h4 class="titulo-charla mb-1">Angular 5 - Novedades</h5>
+            <h4 class="titulos-charlas mb-1">Angular 5 - Novedades</h5>
             <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">10:00</span>
           </div>
           <h5 class="mb-1">Alejandro Cisneros Delevaux</p>
           <small class="text-muted mb-1">Sala 2</small>
-        </li>
-      <li class="list-group-item">
+      </li>
+
+      <li class="list-group-item nodetalk">
           <div class="d-flex justify-content-between">
-            <h4 class="titulo-charla mb-1">Charla de Bienvenida</h5>
-            <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">9:00</span>
+            <h4 class="titulos-charlas mb-1">Node avanzado</h5>
+            <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">11:00</span>
           </div>
-          <h5 class="mb-1">Organizadores del evento</p>
-          <small class="text-muted mb-1">Salón Principal</small>
-        </li>
+          <h5 class="mb-1">Gonzalo Quiroga</p>
+          <small class="text-muted mb-1">Sala 2</small>
+      </li>
+
+      <li class="list-group-item laratalk">
+          <div class="d-flex justify-content-between">
+            <h4 class="titulos-charlas mb-1">Laravel 5</h5>
+            <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">11:00</span>
+          </div>
+          <h5 class="mb-1">Fer Valle</p>
+          <small class="text-muted mb-1">Sala Principal</small>
+      </li>
+
+      <li class="list-group-item vuetalk">
+          <div class="d-flex justify-content-between">
+            <h4 class="titulos-charlas mb-1">Vue + Cordova</h5>
+            <span class="badge badge-pill p-2 d-flex align-items-center justify-content-center">12:00</span>
+          </div>
+          <h5 class="mb-1">Rubén Valle</p>
+          <small class="text-muted mb-1">Sala Principal</small>
+      </li>
+
     </ul>
 
   

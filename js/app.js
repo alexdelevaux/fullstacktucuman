@@ -12,6 +12,10 @@ const subtitulos = $(".subtitulos");
 const modalFondo = $(".modal-content");
 const modalInput = $("input");
 const reacttalk = $(".reacttalk");
+const angutalk = $(".angulartalk");
+const nodetalk = $(".nodetalk");
+const laratalk = $(".laratalk");
+const vuetalk = $(".vuetalk");
 
 var bandera = 0;
 
@@ -20,8 +24,25 @@ function changeDayNight(elemento,propiedad,valor) {
 }
 
 $(".react").on("click", function () {
-    reacttalk.addClass("bg-primary").addClass("text-white");
+    reacttalk.addClass("color-react");
 });
+
+$(".angular").on("click", function () {
+    angutalk.addClass("color-angular");
+});
+
+$(".node").on("click", function () {
+    nodetalk.addClass("color-node");
+});
+
+$(".laravel").on("click", function () {
+    laratalk.addClass("color-laravel");
+});
+
+$(".vue").on("click", function () {
+    vuetalk.addClass("color-vue");
+});
+
 
 noche.on("click",function() {
     bandera++;
