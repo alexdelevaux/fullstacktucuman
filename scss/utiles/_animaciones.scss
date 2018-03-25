@@ -1,0 +1,37 @@
+.card {
+
+    &-react {
+        transition: background .5s 1s ease-out;
+
+        &:hover {
+            background: $color-principal;
+            color: white;
+        }
+    }  
+    
+    &-img-top {
+        transition: transform .5s .1s cubic-bezier(.16,0,.72,1);
+
+        &:hover {
+            transform: rotate(-15deg) scale(1.1);
+        }
+    }
+
+    &-footer a{
+
+        transition: font-size .2s ease-in;
+
+        &:hover {
+          font-size: 1.05em;
+        }
+      }
+}
+
+.titulos {
+    transition: color .5s .1s ease-out;
+
+    &:hover {
+        color: $color-principal;
+        cursor: pointer;
+    }
+}
